@@ -10,7 +10,7 @@ public class Main {
         }
         double endTime = System.currentTimeMillis();
         totalTime = endTime - startTime;
-        System.out.println("Smallest number: " + smallestNumber + ", Tests Passed (Out of 20): " + totalPasses(smallestNumber) + ", Time: " + totalTime / 1000 + " seconds.");
+        System.out.println("Smallest number: " + smallestNumber + ", Tests Passed (Out of 19): " + totalPasses(smallestNumber) + ", Time: " + totalTime / 1000 + " seconds.");
     }
 
     public static int totalPasses(int currentNumber) {
